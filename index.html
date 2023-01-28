@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Complaint Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/half-slider.css" rel="stylesheet">
+    <style>
+        .footer {
+            max-width: 1500px;
+            height: 600px;
+            background-color: black;
+            margin-top: 300px;
+        }
+        .copyright{
+            background-color: green;
+            width: 100%;
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+            
+        }
+       
+        .headertitle{
+            margin-top: 40px;
+        }
+        .footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 40px;
+            padding-left: 20px;
+           
+
+        }
+        .about h3{
+           text-transform: capitalize;
+           color: #cacfd2;
+
+        }
+        .footer1{
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .socialmedia{
+            color: white;
+        }
+        .socialmedia a{
+            padding: 30px;
+            font-size: 30px;
+            color: green;
+          padding-bottom: 30px;
+        }
+        .socialmedia a:hover{
+            color: orangered;
+            font-size: 40px;
+        }
+        .socialmedia h3{
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        .about{
+            padding-top: 60px;
+            color:  #95a5a6;
+        }
+        .info{
+            padding-top: 30px;
+        }
+        .info h5{
+            padding-left: 24px;
+        }
+        @media only screen and (max-width:850px) {
+            .image1{
+              background-position-x:center ;
+            }
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Permission Management Sysytem</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="http://localhost/cms/users/">User Login</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/cms/users/registration.php">User Registration</a>
+                    </li>
+                    <li>
+                        <a href="http://localhost/cms/admin/">admin</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Half Page Image Background Carousel Header -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="container" style="background-image:url('4.jpg'); height: 200px; background-clip: padding-box; background-repeat: no-repeat;background-position-y: 100px; background-position-x: center;"></div>
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('1.jpeg');"></div>
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <!-- Page Content -->
+    <div class="container title">
+
+        <div class="row headertitle">
+            <div class="col-lg-12 mt-5">
+                <h1>Permission Management System</h1>
+
+            </div>
+        </div>
+
+
+        <hr>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer1">
+        
+            <div class="socialmedia">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/cmrcetofficial/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/cmrcet_official/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            </div>
+        
+            
+            <div class="info">
+                <h5>developed by</h5>
+                <ul>
+                    <li>Team 10</li>
+                    <li>Pashikanti karunarkar</li>
+                    <li>contact: +91 8886077725</li>
+                </ul>
+
+            </div>
+            <div class="about">
+                <!-- <h3>about</h3> -->
+                <marquee behavior="" direction=""><h5>This page is for taking  Permission from respective co-ordinators or HOD and to reduce paper work</h5></marquee>
+            </div>
+            <div class="copyright">
+                <h6>copy right&#169 CMR Permission</h6>
+            </div>
+
+        </div>
+        <!-- /.row -->
+    </footer>
+
+
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        })
+    </script>
+
+</body>
+
+</html>
